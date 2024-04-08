@@ -14,7 +14,7 @@ interface QuizCardProps {
     };
 }
 
-const QuizCard = ({answers, questionNumber, questionText}: QuizCardProps) => {
+const QuizCard = ({answers, questionNumber, questionText}: QuizCardProps, ) => {
     return (
         <>
             <Question questionNumber={questionNumber} questionText={questionText} />

@@ -2,9 +2,12 @@ import React, { useState } from 'react';
 import QuizTitle from "@/components/QuizPage/QuizTitle";
 import {Button, Container} from "react-bootstrap";
 import QuizCard from "@/components/QuizPage/QuizCard";
+import ResultScreen from "@/components/QuizPage/ResultScreen";
+
 
 const QuizBody = () => {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+    const [quizFinished, setQuizFinished] = useState(false);
 
     const quizData = [
         {
@@ -94,9 +97,13 @@ const QuizBody = () => {
         if (currentQuestionIndex < quizData.length - 1) {
             setCurrentQuestionIndex(currentQuestionIndex + 1);
         } else {
-            // RESULT SCREEN AND LOGIC??
+            setQuizFinished(true);
         }
     };
+
+    if (quizFinished) {
+        return <ResultScreen />;
+    }
 
     return (
         <div className={"pt-5"}>
@@ -104,7 +111,9 @@ const QuizBody = () => {
                 <QuizTitle/>
                 <QuizCard {...quizData[currentQuestionIndex]} />
                 <div className={"mt-5 mb-5 d-flex justify-content-center align-content-center"}>
-                <Button className={"border-3 border border-black"} size={"lg"} variant={"light"} onClick={handleNextQuestion}>Next Question</Button>
+                    <Button className={"border-3 border border-black"} size={"lg"} variant={"light"} onClick={handleNextQuestion}>
+                        {currentQuestionIndex < quizData.length - 1 ? 'Next Question' : 'Show Results'} {}
+                    </Button>
                 </div>
             </Container>
         </div>
