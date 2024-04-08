@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import "bootstrap/dist/css/bootstrap.css";
 import "./globals.css";
+import '@fontsource/atkinson-hyperlegible';
+import '@fontsource-variable/pixelify-sans';
 
 const inter = Inter({ subsets: ["latin"] });
 
