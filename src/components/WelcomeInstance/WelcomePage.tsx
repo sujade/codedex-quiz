@@ -23,12 +23,8 @@ const WelcomePage = ({onStartQuiz}: WelcomeTitleProps) => {
                 <Col md={8} className={"text-start text-uppercase"}><h1 id={"main-title"}>What codédex course are
                     you?</h1></Col>
             </Row>
-            <Row>
-                <Col className={"mt-3 text-center"}><h3>Codédex offers many different courses!<br/>
-                    Would you like to know which one you are?</h3></Col>
-            </Row>
             <Row className={"text-center mt-3"}>
-                <Col><h3>Ready to find out? Then press the button!</h3></Col>
+                <Col><h3>Codédex offers many different courses. Ready to find out <br/> which one you are? Then press the button!</h3></Col>
             </Row>
             <Row className={"d-flex align-content-center justify-content-center mt-5 mb-5"}>
                 <Button className={"border border-3 border-black text-uppercase"} onClick={onStartQuiz}
