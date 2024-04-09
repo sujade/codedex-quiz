@@ -41,12 +41,12 @@ const QuizBody = () => {
 
     if (quizFinished) {
         return (
-        <div className={"text-center mt-5 mb-3"}>
-            <h1>Are you curious about your results?</h1>
-            <h5 className={"mb-5"}>Just a button away from finding out what Codédex course you are!</h5>
-        <ResultLinkButton cssScore={cssScore} htmlScore={htmlScore} javascriptScore={javascriptScore}
-                                 pythonScore={pythonScore}/>
-        </div>)
+            <div className={"text-center mt-5 mb-3"}>
+                <h1>Are you curious about your results?</h1>
+                <h5 className={"mb-5"}>Just a button away from finding out what Codédex course you are!</h5>
+                <ResultLinkButton cssScore={cssScore} htmlScore={htmlScore} javascriptScore={javascriptScore}
+                                  pythonScore={pythonScore}/>
+            </div>)
     } else {
         return <>
             <QuizTitle/>

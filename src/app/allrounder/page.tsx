@@ -4,7 +4,7 @@ import AllrounderResult from "@/components/ResultInstance/AllrounderResult";
 const AllrounderPage = () => {
     return (
         <>
-         <AllrounderResult/>
+            <AllrounderResult/>
         </>
     );
 };

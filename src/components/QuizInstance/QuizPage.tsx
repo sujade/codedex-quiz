@@ -1,6 +1,5 @@
 import React from 'react';
 import QuizBody from "@/components/QuizInstance/QuizBody";
-import {Container} from "react-bootstrap";
 
 const QuizPage = () => {
     return (

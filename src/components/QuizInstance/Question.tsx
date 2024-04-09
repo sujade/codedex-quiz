@@ -5,7 +5,7 @@ interface QuestionProps {
     questionText?: string;
 }
 
-function Question({ questionNumber, questionText }: QuestionProps) {
+function Question({questionNumber, questionText}: QuestionProps) {
     return (
         <div className="question mt-5 text-center">
             <h2>Question {questionNumber}</h2>

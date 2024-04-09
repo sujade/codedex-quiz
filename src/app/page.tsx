@@ -2,7 +2,6 @@
 import WelcomePage from "@/components/WelcomeInstance/WelcomePage";
 import QuizPage from "@/components/QuizInstance/QuizPage";
 import React, {useRef, useState} from "react";
-import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -20,13 +19,13 @@ export default function Home() {
     return (
         <div>
             {showQuiz ? (
-                <QuizPage />
+                <QuizPage/>
             ) : (
-                <WelcomePage onStartQuiz={handleStartQuiz} />
+                <WelcomePage onStartQuiz={handleStartQuiz}/>
             )}
 
-            <audio ref={backgroundMusicRef} src="/sounds/purely-grey-phantasm.mp3" />
-            <audio ref={startSoundRef} src="/sounds/start.mp3" />
+            <audio ref={backgroundMusicRef} src="/sounds/purely-grey-phantasm.mp3"/>
+            <audio ref={startSoundRef} src="/sounds/start.mp3"/>
         </div>
     );
 };

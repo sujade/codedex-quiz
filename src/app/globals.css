@@ -21,8 +21,12 @@ ul {
 
 
 @keyframes spinning-coin {
-    from {background-position-x: 0px;}
-    to {background-position-x: 840px;}
+    from {
+        background-position-x: 0px;
+    }
+    to {
+        background-position-x: 840px;
+    }
 }
 
 #spinning-coin {
