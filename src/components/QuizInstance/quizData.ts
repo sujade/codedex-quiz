@@ -33,7 +33,7 @@ export const quizData = [
         questionNumber: 4,
         questionText: "What would define your programming style?",
         answers: {
-            python: "I take the situation at hand. I guess I'll code for the whole day.",
+            python: "I watch something on the side and code at the same time. It's chill.",
             javascript: "Teamwork is dream work! You can create anything with a good team!",
             css: "I have a coding buddy, he's called the Pomodoro Method.",
             html: "I'm a lonesome cowboy. I just need my computer and I'm good to go."
