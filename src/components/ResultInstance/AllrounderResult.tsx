@@ -20,7 +20,9 @@ const AllrounderResult = () => {
                 couldn&#39;t
                 put you on a single result. That means you&#39;re really something else! You probably want to create,
                 style,
-                make it work all the same. That means you&#39;re ready to take your skills to the next level!<br/> <br/>
+                make it work all the same. You like taking on new challenges and keep on creating. Learning is
+                definitely not a new word for you!That
+                means you&#39;re ready to take your skills to the next level!<br/> <br/>
                 There is something for everyone on Codédex! Why don&#39;t you try some of their very cool expansions?
             </h5>
 

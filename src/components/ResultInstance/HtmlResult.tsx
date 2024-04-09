@@ -19,7 +19,8 @@ const HtmlResult = () => {
             <h5 className={"ms-5 me-5 ps-5 pe-5 mb-3 mt-3"}>You don&#39;t just stick to the basics, you own them!
                 Whenever you need to create new web application,
                 you think carefully, start strong and make it yours! Creating elements, lists, tables and structure is
-                totally your playground! <br/> <br/>
+                totally your playground! You take it easy, but you care about your footwork. Don&#39;t forget, a good
+                foundation makes a good developer a better one! Keep learning, and keep growing! <br/> <br/>
                 Did you know that you could master your HTML groundwork on Codédex and build projects as well?</h5>
 
             <h5 className={"mt-3 mb-5"}>Click<a href={"https://www.codedex.io/html"}> here</a> to find out about The

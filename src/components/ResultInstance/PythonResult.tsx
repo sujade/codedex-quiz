@@ -19,7 +19,9 @@ const PythonResult = () => {
             <h5 className={"ms-5 me-5 ps-5 pe-5 mb-3 mt-3"}>You&#39;re Python, how cool is that?!
                 You know your way around so many things including loops, control flow and even modules! You can also
                 create your own functions and classes! You can build very cool applications like games, calculators, and
-                even a terminal adventure!
+                even a terminal adventure! You go hard, but you know where to limit yourself. This quality makes you
+                dependable and strong in teamplay. You&#39;re always ready to learn new things and pass the info to the
+                newcomers at all times. Keep it up!
                 <br/> <br/>
                 Did you know that you could master your Python groundwork on Codédex and build projects as well?
                 And if you&#39;re already proficient in Python, you can also check the Intermediate Python and Numpy
