@@ -13,20 +13,20 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children,
-}: Readonly<{
+                                     children,
+                                   }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-    <body>
-    <div className={"pt-5"}>
-      <Container id="text-container" className={"border border-3 border-warning rounded pb-5"}>
-        {children}
-      </Container>
-    </div>
-    <Footer/>
-    </body>
-    </html>
-);
+      <html lang="en">
+      <body>
+      <div className={"pt-5 d-flex align-items-center justify-content-center flex-column"}>
+        <Container id="text-container" className={"border border-3 border-warning rounded pb-5"}>
+          {children}
+        </Container>
+        <Footer/>
+      </div>
+      </body>
+      </html>
+  );
 }

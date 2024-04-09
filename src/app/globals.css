@@ -66,3 +66,11 @@ ul {
     background-color: rgba(15, 21, 36, 0.5);
     width: 600px;
 }
+
+@media (max-width: 768px) {
+    #footer {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+}
