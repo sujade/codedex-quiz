@@ -7,9 +7,9 @@ interface WelcomeTitleProps {
 }
 
 const WelcomeTitle = ({ onStartQuiz }: WelcomeTitleProps) => {
-    let startSound = new Audio("/sounds/start.mp3")
+    let startSound = new window.Audio("/sounds/start.mp3")
 
-    let backgroundMusic = new Audio("/sounds/roa-music-pixel-story.mp3")
+    let backgroundMusic = new window.Audio("/sounds/purely-grey-phantasm.mp3")
 
     const start = () => {
         startSound.play()
@@ -18,7 +18,7 @@ const WelcomeTitle = ({ onStartQuiz }: WelcomeTitleProps) => {
     }
 
     return (
-        <Container id={"text-container"} className={"pt-5 border border-3 border-warning rounded"}>
+        <>
             <Row className={"d-flex justify-content-between"}>
                 <Col md={1}></Col>
                 <Col md={2}
@@ -33,7 +33,7 @@ const WelcomeTitle = ({ onStartQuiz }: WelcomeTitleProps) => {
             <Row className={"d-flex align-content-center justify-content-center mt-5 mb-5"}>
                 <Button className={"border border-3 border-black text-uppercase"} onClick={start} id={"start-button"} variant={"warning"} size={"lg"}>Start!</Button>
             </Row>
-        </Container>
+        </>
     );
 };
 

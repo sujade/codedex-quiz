@@ -1,6 +1,6 @@
 "use client";
-import WelcomePage from "@/components/WelcomePage/WelcomePage";
-import QuizPage from "@/components/QuizPage/QuizPage";
+import WelcomePage from "@/components/WelcomeInstance/WelcomePage";
+import QuizPage from "@/components/QuizInstance/QuizPage";
 import React, {useState} from "react";
 import Footer from "@/components/Footer";
 
@@ -19,7 +19,6 @@ export default function Home() {
             ) : (
                 <WelcomePage onStartQuiz={handleStartQuiz} />
             )}
-            <Footer/>
         </div>
     );
 };

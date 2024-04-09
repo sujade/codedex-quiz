@@ -1,4 +1,4 @@
-import WelcomeTitle from "@/components/WelcomePage/WelcomeTitle";
+import WelcomeTitle from "@/components/WelcomeInstance/WelcomeTitle";
 
 interface WelcomePageProps {
     onStartQuiz: () => void;
