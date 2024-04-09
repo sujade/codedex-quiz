@@ -1,7 +1,7 @@
 "use client";
 import WelcomePage from "@/components/WelcomeInstance/WelcomePage";
-import QuizPage from "@/components/QuizInstance/QuizPage";
 import React, {useRef, useState} from "react";
+import QuizPage from "@/components/QuizInstance/QuizPage";
 
 
 export default function Home() {

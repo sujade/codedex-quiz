@@ -7,6 +7,12 @@ interface AnswerProps {
     onClick: () => void;
 }
 
+/**
+ * Renders an answer button
+ * @param answerCode contains the score code of the answer
+ * @param answerText contains the text to display
+ * @param onClick contains the function to call when the answer is clicked
+ */
 function Answer({answerCode, answerText, onClick}: AnswerProps) {
     return (
         <Button onClick={onClick} className="answer mt-5 text-center border-3 border-black">

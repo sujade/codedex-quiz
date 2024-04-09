@@ -3,6 +3,9 @@ import React from 'react';
 import {Button} from "react-bootstrap";
 import GoBackButton from "@/components/ResultInstance/GoBackButton";
 
+/**
+ * Renders the result for the allrounder result
+ */
 const AllrounderResult = () => {
     const handleShare = () => {
         navigator.clipboard.writeText(window.location.href);

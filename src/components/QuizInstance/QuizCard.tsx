@@ -15,6 +15,13 @@ interface QuizCardProps {
     onChoose: (answerCode: "javascript" | "html" | "css" | "python") => void;
 }
 
+/**
+ * Renders the whole question card along with the question itself and the answer buttons
+ * @param answers contains the answers to display
+ * @param questionNumber contains the number of the question
+ * @param questionText contains the question text/prompt
+ * @param onChoose contains the function to call when an answer is chosen
+ */
 const QuizCard = ({answers, questionNumber, questionText, onChoose}: QuizCardProps,) => {
     return (
         <>

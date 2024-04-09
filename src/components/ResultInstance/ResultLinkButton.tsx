@@ -10,6 +10,9 @@ interface ResultScreenProps {
     javascriptScore: number;
 }
 
+/**
+ * Renders a button that takes the user to the result page
+ */
 const ResultLinkButton: React.FC<ResultScreenProps> = ({pythonScore, htmlScore, cssScore, javascriptScore}) => {
     if (pythonScore > Math.max(javascriptScore, htmlScore, cssScore)) {
         return <Link href={"/python"}><Button className={"border border-3 border-black"} variant={"warning"}

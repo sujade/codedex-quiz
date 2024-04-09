@@ -5,6 +5,11 @@ interface QuestionProps {
     questionText?: string;
 }
 
+/**
+ * Renders a question title and prompt
+ * @param questionNumber contains the number of the question
+ * @param questionText contains the text/prompt of the question
+ */
 function Question({questionNumber, questionText}: QuestionProps) {
     return (
         <div className="question mt-5 text-center">

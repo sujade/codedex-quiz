@@ -2,6 +2,9 @@ import React from 'react';
 import {Container} from "react-bootstrap";
 import {FaHeart} from "react-icons/fa";
 
+/**
+ * Renders a footer of the page that contains the information about the challenge, the creator of the quiz and the sources used.
+ */
 const Footer = () => {
     return (
         <Container id={"footer"}

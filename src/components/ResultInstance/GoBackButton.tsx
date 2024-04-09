@@ -2,6 +2,9 @@ import React from 'react';
 import Link from 'next/link';
 import {Button} from "react-bootstrap";
 
+/**
+ * Renders a button that takes the user back to the starting page
+ */
 const GoBackButton = () => {
     return (
         <Link href="/">
