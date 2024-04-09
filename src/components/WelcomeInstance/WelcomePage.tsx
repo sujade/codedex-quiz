@@ -9,7 +9,6 @@ interface WelcomeTitleProps {
 /**
  * Renders a welcome page that has a title, a description and a button to start the quiz.
  * @param onStartQuiz - Function that is called when the start button is clicked.
- * @constructor
  */
 const WelcomePage = ({onStartQuiz}: WelcomeTitleProps) => {
 
