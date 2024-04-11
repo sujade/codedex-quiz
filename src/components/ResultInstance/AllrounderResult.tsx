@@ -18,8 +18,8 @@ const AllrounderResult = () => {
             <h1 className={"text-uppercase"}>an allrounder!</h1>
             <h5 className={"ms-5 me-5 ps-5 pe-5 mb-3 mt-3"}>Wow! You&#39;re so diverse in your results that we
                 couldn&#39;t
-                put you on a single result. That means you&#39;re really something else! You probably want to create,
-                style,
+                put you on a single result. That means you&#39;re really something else! You probably want to make something,
+                style it and
                 make it work all the same. You like taking on new challenges and keep on creating. Learning is
                 definitely not a new word for you!That
                 means you&#39;re ready to take your skills to the next level!<br/> <br/>
