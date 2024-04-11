@@ -16,7 +16,7 @@ const AllrounderResult = () => {
         <div className={"pt-5 text-center"}>
             <h4 className={"m3-5"}>You are...</h4>
             <h1 className={"text-uppercase"}>an allrounder!</h1>
-            <h5 className={"ms-5 me-5 ps-5 pe-5 mb-3 mt-3"}>Wow! You&#39;re so diverse in your results that we
+            <h5 className={"ms-5 me-5 ps-5 pe-5 mb-3 mt-3"}>Wow! You&#39;re so diverse in your answers that we
                 couldn&#39;t
                 put you on a single result. That means you&#39;re really something else! You probably want to make something,
                 style it and
