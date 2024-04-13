@@ -1,6 +1,5 @@
 'use client';
 import React from 'react';
-import {Button} from "react-bootstrap";
 import GoBackButton from "@/components/ResultInstance/GoBackButton";
 import ShareBox from "@/components/ResultInstance/ShareBox";
 
