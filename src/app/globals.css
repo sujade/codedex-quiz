@@ -44,6 +44,11 @@ ul {
     font-size: 86px;
 }
 
+@media (max-width: 768px) {
+    #main-title {
+        font-size: 2em;
+    }
+}
 #text-container {
     background-color: rgba(15, 21, 36, 0.5);
 }
