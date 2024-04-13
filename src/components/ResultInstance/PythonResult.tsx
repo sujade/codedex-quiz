@@ -1,4 +1,3 @@
-'use client';
 import React from 'react';
 import GoBackButton from "@/components/ResultInstance/GoBackButton";
 import ShareBox from "@/components/ResultInstance/ShareBox";

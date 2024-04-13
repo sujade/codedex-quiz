@@ -26,6 +26,10 @@ const ShareBox = () => {
         }
     };
 
+    if (typeof window === "undefined") {
+        return null;
+    }
+
     return (
         <Container className={"mt-3 mb-3"}>
             <Row className={"mb-3"}><h4>Share your results!</h4></Row>
