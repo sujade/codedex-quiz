@@ -10,7 +10,7 @@ const HtmlResult = () => {
         <div className={"pt-5 text-center"}>
             <h4 className={"m3-5"}>You are...</h4>
             <h1 className={"text-uppercase"}>HTML!</h1>
-            <h5 className={"ms-5 me-5 ps-5 pe-5 mb-3 mt-3"}>You don&#39;t just stick to the basics, you own them!
+            <h5 className={"ms-5 me-5 px-md-5 px-1 mb-3 mt-3"}>You don&#39;t just stick to the basics, you own them!
                 Whenever you need to create new web application,
                 you think carefully, start strong and make it yours! Creating elements, lists, tables and structure is
                 totally your playground! You take it easy, but you care about your footwork. Don&#39;t forget, a good

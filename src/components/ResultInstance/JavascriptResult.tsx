@@ -10,7 +10,7 @@ const JavascriptResult = () => {
         <div className={"pt-5 text-center"}>
             <h4 className={"m3-5"}>You are...</h4>
             <h1 className={"text-uppercase"}>JavaScript!</h1>
-            <h5 className={"ms-5 me-5 ps-5 pe-5 mb-3 mt-3"}>Whoa! You&#39;re JavaScript! Now, we all know what that
+            <h5 className={"ms-5 me-5 px-md-5 px-1 mb-3 mt-3"}>Whoa! You&#39;re JavaScript! Now, we all know what that
                 means.
                 You&#39;re very capable in terms of creating new projects and creating interactive web-applications with
                 responsive interface! You can also use functions, variables and arrays the way you want! The moment you
