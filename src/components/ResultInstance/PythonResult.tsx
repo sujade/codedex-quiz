@@ -10,7 +10,7 @@ const PythonResult = () => {
         <div className={"pt-5 text-center"}>
             <h4 className={"m3-5"}>You are...</h4>
             <h1 className={"text-uppercase"}>Python!</h1>
-            <h5 className={"ms-5 me-5 px-md-5 px-1 mb-3 mt-3"}>ou&#39;re Python, how cool is that?!
+            <h5 className={"ms-5 me-5 px-md-5 px-1 mb-3 mt-3"}>You&#39;re Python, how cool is that?!
                 You know your way around so many things including loops, control flow and even modules! You can also
                 create your own functions and classes! You can build very cool applications like games, calculators, and
                 even a terminal adventure! You go hard, but you know where to limit yourself. This quality makes you
