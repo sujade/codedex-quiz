@@ -2,16 +2,12 @@
 import React from 'react';
 import {Button} from "react-bootstrap";
 import GoBackButton from "@/components/ResultInstance/GoBackButton";
+import ShareBox from "@/components/ResultInstance/ShareBox";
 
 /**
  * Renders the result for the javascript result
  */
 const JavascriptResult = () => {
-    const handleShare = () => {
-        navigator.clipboard.writeText(window.location.href);
-        alert("URL copied to clipboard");
-    };
-
     return (
         <div className={"pt-5 text-center"}>
             <h4 className={"m3-5"}>You are...</h4>
@@ -31,8 +27,7 @@ const JavascriptResult = () => {
                 Origins
                 III: JavaScript course <br/>and <a href={"https://www.codedex.io/react"}>here</a> to find out about
                 Framework Valley: React course!</h5>
-            <Button className={"border border-3 border-black mb-3"} variant={"warning"} size={"lg"}
-                    onClick={handleShare}>Share</Button>
+            <ShareBox/>
             <br/>
             <GoBackButton/>
         </div>

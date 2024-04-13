@@ -71,6 +71,15 @@ ul {
     width: 600px;
 }
 
+.icon {
+    transition: transform 150ms;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
 @media (max-width: 768px) {
     #footer {
         width: 100%;
