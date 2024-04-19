@@ -1,6 +1,7 @@
 import React from 'react';
 import GoBackButton from "@/components/ResultInstance/GoBackButton";
 import ShareBox from "@/components/ResultInstance/ShareBox";
+import { IoLogoJavascript } from "react-icons/io5";
 
 /**
  * Renders the result for the javascript result
@@ -9,6 +10,7 @@ const JavascriptResult = () => {
     return (
         <div className={"pt-5 text-center"}>
             <h4 className={"m3-5"}>You are...</h4>
+            <IoLogoJavascript size={100}/>
             <h1 className={"text-uppercase"}>JavaScript!</h1>
             <h5 className={"ms-5 me-5 px-md-5 px-1 mb-3 mt-3"}>Whoa! You&#39;re JavaScript! Now, we all know what that
                 means.

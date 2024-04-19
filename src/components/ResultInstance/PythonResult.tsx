@@ -1,6 +1,7 @@
 import React from 'react';
 import GoBackButton from "@/components/ResultInstance/GoBackButton";
 import ShareBox from "@/components/ResultInstance/ShareBox";
+import { FaPython } from "react-icons/fa";
 
 /**
  * Renders the result for the python result
@@ -9,6 +10,7 @@ const PythonResult = () => {
     return (
         <div className={"pt-5 text-center"}>
             <h4 className={"m3-5"}>You are...</h4>
+            <FaPython size={100}/>
             <h1 className={"text-uppercase"}>Python!</h1>
             <h5 className={"ms-5 me-5 px-md-5 px-1 mb-3 mt-3"}>You&#39;re Python, how cool is that?!
                 You know your way around so many things including loops, control flow and even modules! You can also

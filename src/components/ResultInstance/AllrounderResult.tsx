@@ -1,6 +1,7 @@
 import React from 'react';
 import GoBackButton from "@/components/ResultInstance/GoBackButton";
 import ShareBox from "@/components/ResultInstance/ShareBox";
+import { FaStar } from "react-icons/fa";
 
 /**
  * Renders the result for the allrounder result
@@ -9,6 +10,7 @@ const AllrounderResult = () => {
     return (
         <div className={"pt-5 text-center"}>
             <h4 className={"m3-5"}>You are...</h4>
+            <FaStar size={100}/>
             <h1 className={"text-uppercase"}>an allrounder!</h1>
             <h5 className={"ms-5 me-5 px-md-5 px-1 mb-3 mt-3"}>Wow! You&#39;re so diverse in your answers that we
                 couldn&#39;t

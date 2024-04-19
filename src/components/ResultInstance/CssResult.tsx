@@ -1,6 +1,7 @@
 import React from 'react';
 import GoBackButton from "@/components/ResultInstance/GoBackButton";
 import ShareBox from "@/components/ResultInstance/ShareBox";
+import { IoLogoCss3 } from "react-icons/io";
 
 /**
  * Renders the result for the css result
@@ -9,6 +10,7 @@ const CssResult = () => {
     return (
         <div className={"pt-5 text-center"}>
             <h4 className={"m3-5"}>You are...</h4>
+            <IoLogoCss3 size={100}/>
             <h1 className={"text-uppercase"}>CSS!</h1>
             <h5 className={"ms-5 me-5 px-md-5 px-1 mb-3 mt-3"}>Styling is your game. You don&#39;t only create different
                 elements, lists, tables, but you can also style them very well! Centering divs are going to be a distant
