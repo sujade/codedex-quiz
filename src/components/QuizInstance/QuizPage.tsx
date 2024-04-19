@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import QuizCard from "@/components/QuizInstance/QuizCard";
 import ResultLinkButton from "@/components/ResultInstance/ResultLinkButton";
 import {quizData} from "@/components/QuizInstance/quizData";
+import { GiDrum } from "react-icons/gi";
 
 /**
  * Renders the actual quiz and handles the score and the question to show
@@ -43,9 +44,10 @@ const QuizPage = () => {
 
     if (quizFinished) {
         return (
-            <div className={"text-center mt-5 mb-3"}>
+            <div className={"text-center mt-5"}>
                 <h1>Are you curious about your results?</h1>
-                <h5 className={"mb-5"}>Just a button away from finding out what Codédex course you are!</h5>
+                <GiDrum className={"mt-3"} size={50}/>
+                <h5 className={"mb-3"}>*drumroll*</h5>
                 <ResultLinkButton cssScore={cssScore} htmlScore={htmlScore} javascriptScore={javascriptScore}
                                   pythonScore={pythonScore}/>
             </div>)

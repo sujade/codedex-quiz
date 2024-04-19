@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface QuestionProps {
-    questionNumber?: number;
+    questionNumber?: string;
     questionText?: string;
 }
 

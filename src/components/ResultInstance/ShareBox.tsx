@@ -34,13 +34,13 @@ const ShareBox = () => {
         <Container className={"mt-3 mb-3"}>
             <Row className={"mb-3"}><h4>Share your results!</h4></Row>
             <Row className="justify-content-md-center">
-                <Col xs={4} md={1} className="d-flex justify-content-center"><FaLink className={"icon mx-1"} onClick={handleShare} size={35}></FaLink></Col>
+                <Col xs={4} md={1} className="d-flex justify-content-center"><FaLink className={"icon mx-1"} onClick={handleShare} size={45}></FaLink></Col>
                 <Col xs={4} md={1} className="d-flex justify-content-center"><Link
                     href={`https://twitter.com/share?text=My Codédex Personality Quiz results are out!&url=${window.location.href}`}><FaXTwitter
-                    className={"icon mx-1"} size={35}></FaXTwitter></Link></Col>
+                    className={"icon mx-1"} size={45}></FaXTwitter></Link></Col>
                 <Col xs={4} md={1} className="d-flex justify-content-center"><Link
                     href={`https://www.linkedin.com/shareArticle?mini=true&url=${window.location.href}`}><FaLinkedin
-                    className={"icon mx-1"} size={35}></FaLinkedin></Link></Col>
+                    className={"icon mx-1"} size={45}></FaLinkedin></Link></Col>
             </Row>
         </Container>
     );
