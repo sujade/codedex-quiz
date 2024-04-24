@@ -53,7 +53,7 @@ ul {
     background-color: rgba(15, 21, 36, 0.5);
 }
 
-#start-button {
+.button-width {
     width: 120px;
 }
 
