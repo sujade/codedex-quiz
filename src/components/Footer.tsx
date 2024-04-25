@@ -22,7 +22,7 @@ const Footer = ({onFontSwitch}: FooterProps) => {
             <p className={"mt-3"}>If the current font is difficult for you to read:</p>
 
             <Button className={"border border-3 border-black text-uppercase"} onClick={onFontSwitch}
-                             variant={"warning"} size={"lg"}>Change Font</Button>
+                             variant={"warning"} size={"sm"}>Change Font</Button>
         </Container>
     );
 };
