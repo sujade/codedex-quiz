@@ -1,6 +1,7 @@
 import type {Metadata} from "next";
 import "bootstrap/dist/css/bootstrap.css";
 import '@fontsource-variable/pixelify-sans';
+import '@fontsource/atkinson-hyperlegible';
 import "./globals.css";
 import LayoutContent from "@/components/LayoutContent";
 
