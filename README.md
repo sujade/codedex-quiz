@@ -10,7 +10,7 @@
 
 <h2>Challenges:</h2>
 
-<p>My biggest challenge was coming up with the whole quiz logic and making the audio work. For that, I had to dive deep and research a lot, since TypeScript did not want to compile for a long time.</p>
+<p>My biggest challenge was coming up with the whole quiz logic and making the audio work. For that, I had to dive deep and research a lot, since TypeScript did not want to compile for a long time. I also had some issues turning the font-change into a state that works properly, since I couldn't really pass it onto the layout.tsx file. To achieve that I've just made another component for the font change and placed it into the Footer.tsx component.</p>
 
 <h2>Experience Gained:</h2>
 
