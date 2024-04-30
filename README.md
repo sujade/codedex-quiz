@@ -1,20 +1,30 @@
-<h1>Codédex Personality Quiz</h1>
 
-<p>This project is made for Codédex's April Challenge.</p>
+<div align="center">
+
+<h3 align="center">What Codédex Course Are You?</h3>
+<p align="center">
+My entry for Codédex's April Challenge
+
+<a href="https://ibb.co/FbHtXfB"><img src="https://i.ibb.co/DDrnY67/Screenshot-from-2024-04-30-15-16-16.png" alt="Screenshot-from-2024-04-30-15-16-16" border="0"></a>
 
 <br/>
+<a href="https://codedex-quiz.vercel.app/">View Demo .</a>  
 
-<h2>Technologies:</h2>
+</p>
+</div>
 
-<p>For this project I've mainly used React + TypeScript + NextJS. For styling, I've used Bootstrap CSS along with regular CSS to make it look good and feel good.</p>
+ ## About The Project
 
-<h2>Challenges:</h2>
+This personality test is the first one I've ever created. Therefore I had to face some challenges that I've never had to face before. Coming up with a quiz logic took some serious rubber-ducking and writing code to scrap. But eventually, I came up with something that works fully. I've implemented an accessibility function. Which I normally always do with my projects but this time it was a font toggle. That was a slight problem in the beginning since I couldn't get it to work into the layout.tsx. To achieve my means, I've created another component to carry this function and passed it into the Footer component.
 
-<p>My biggest challenge was coming up with the whole quiz logic and making the audio work. For that, I had to dive deep and research a lot, since TypeScript did not want to compile for a long time. I also had some issues turning the font-change into a state that works properly, since I couldn't really pass it onto the layout.tsx file. To achieve that I've just made another component for the font change and placed it into the Footer.tsx component.</p>
+ ### Built With
 
-<h2>Experience Gained:</h2>
+- [React](https://reactjs.org)
+- [Bootstrap](https://getbootstrap.com)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Next.js](https://nextjs.org/)
 
-<p>I was able to create a whole quiz app that works well and looks good! This has been the biggest project I've made in terms of the size of the project file. The project boasts with 16 components for a small-scale project and was planned to be a single-page application. Along the way, I needed to give result screens their pages to make the results shareable. </p>
 
-<h2>But what is Codédex?</h2>
-<p>Codédex is a platform where new learners and experienced people meet, follow tutorials, and or enjoy the great community, collaborate, and share their knowledge! Click <a href="https://www.codedex.io/home">here</a> to learn more about it!</p>
+ ## About Codédex
+Codédex is a platform where new learners and experienced people meet, follow tutorials, and or enjoy the great community, collaborate, and share their knowledge! Click <a href="https://www.codedex.io/home">here</a> to learn more about it!
+ 
